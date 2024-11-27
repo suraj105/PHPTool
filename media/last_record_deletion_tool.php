@@ -5,9 +5,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Database credentials and connection
     $host = 'localhost';
-    $dbname = 'xa016_db16';
-    $username = 'xa016_16';
-    $password = 'Raya_2409';
+    $dbname = 'database';
+    $username = 'user';
+    $password = 'pass';
 
     try {
         $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
